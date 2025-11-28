@@ -5,6 +5,9 @@
 ![imagens relacionadas ao concorrente](Concorrente1.png)
 ![imagens relacionadas ao concorrente](Concorrente22.png)
 
+
+
+
 # Lock
 
 * Aqui botamos em prática o lock, que faz exatamente o que eu disse acima. Para dissertar um pouco mais sobre, o lock literalmente locka(tranca) enquanto um thread acessa ou setta a informação, e assim que a mesma termina aplicamos o unlock(destrancar).
@@ -13,6 +16,9 @@
 ![imagens relacionadas ao Lock](lock2.png)
 ![imagens relacionadas ao Lock](lock3.png)
 
+
+
+
 # RwLock
 
 * Diferente do simples lock, aqui deixamos um pouco mais complexo. Usamos o readLock para que várias threads tenham o "direito" de ler, e o writeLock para dar o acesso exclusivo de UMA thread na escrita. Com isso, podemos fazer uma atualização melhor da leitura, e uma escrita contínua e protegida. Devo esclarecer que aparentemente esse método é eficiente quando se tem mais leituras do que escritas, na verdade, dada a explicação da senhora no git isso também já fica claro.
@@ -20,6 +26,9 @@
 ![imagens relacionadas ao RwLock](RwLock1.png)
 ![imagens relacionadas ao RwLock](RwLock2.png)
 ![imagens relacionadas ao RwLock](RwLock3.png)
+
+
+
 
 
 # Synk
